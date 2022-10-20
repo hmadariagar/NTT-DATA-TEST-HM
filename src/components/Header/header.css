@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container-search i{
+    position: absolute;
+    left: 5px;
+}
+
+.container-search input{
+    padding-left: 30px;
+}

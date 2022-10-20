@@ -1,0 +1,32 @@
+
+td, 
+th{
+    padding: 10px;
+}
+
+/*format input range for Chrome*/
+input[type='range'] {
+    overflow: hidden;
+    width: 70%;
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background-color: var(--primary);
+    height: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: var(--primary);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: -8px;
+}
+
+.table-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

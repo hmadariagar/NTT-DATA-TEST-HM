@@ -1,0 +1,59 @@
+.modal{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-full-screen{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+.contents{
+    display: contents;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-between;
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    padding:0 14px;
+}
+.grid-item .container-input{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.grid-item input:required {
+    outline: auto;
+    outline-color: rgb(255, 71, 71);
+}
+
+.grid-item > span {
+    margin: 0 10px;
+}
+
+.modal-actions{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.modal-actions button{
+    margin: 0 5px
+}
+
